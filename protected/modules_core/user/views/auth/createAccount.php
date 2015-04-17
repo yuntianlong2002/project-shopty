@@ -12,13 +12,13 @@ $this->pageTitle = Yii::t('UserModule.views_auth_createAccount', '<strong>Accoun
 ?>
 
 <div class="container" style="text-align: center;">
-    <h1 id="app-title" class="animated fadeIn"><?php echo CHtml::encode(Yii::app()->name); ?></h1>
+    <h1 id="app-title" style="color:blue" class="animated fadeIn"><?php echo CHtml::encode(Yii::app()->name); ?></h1>
     <br/>
     <div class="row">
         <div id="create-account-form" class="panel panel-default animated bounceIn" style="max-width: 500px; margin: 0 auto 20px; text-align: left;">
             <div class="panel-heading"><?php echo Yii::t('UserModule.views_auth_createAccount', '<strong>Account</strong> registration'); ?></div>
             <div class="panel-body">
-                <?php echo $form; ?>
+               <?php echo $form; ?>
             </div>
         </div>
     </div>

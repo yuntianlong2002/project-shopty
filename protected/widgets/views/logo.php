@@ -15,12 +15,12 @@
 <?php if ($place == "login") : ?>
     <?php if ($logo->hasImage()) : ?>
         <a href="<?php echo Yii::app()->createUrl('//'); ?>">
-            <img class="img-rounded" src="<?php echo $logo->getUrl(); ?>"
+            <img class="img-rounded" width="30%"  src="./uploads/logo_image/logo_big.png"
                  id="img-logo"/>
         </a>
         <br>
     <?php else: ?>
-        <h1 id="app-title" class="animated fadeIn"><?php echo CHtml::encode(Yii::app()->name); ?></h1>
+        <h1  id="app-title" class="animated fadeIn" style="color:black !important;" style="font-family:"Comic Sans MS" !important;" ><?php echo CHtml::encode(Yii::app()->name); ?></h1>
     <?php endif; ?>
 <?php endif; ?>
 

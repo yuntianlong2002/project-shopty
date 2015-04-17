@@ -12,11 +12,18 @@ body a.active {
   text-decoration: none;
 }
 h4 {
-  font-weight: 300;
-  font-size: 150%;
+  font-weight: 400;
+  font-size: 300%;
+  color: #555555;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 300%;
+    color: #00ff00;
 }
 .heading {
-  font-size: 16px;
+  font-size: 64px;
   font-weight: 300;
   color: #555555;
   background-color: white;
