@@ -24,24 +24,24 @@ $this->pageTitle = Yii::t('UserModule.views_auth_login', '<strong>Please</strong
     <?php if ($canRegister) : ?>
         <div id="register-form"
              class="panel panel-default animated bounceInLeft"
-             style="max-width: 850px; margin: 0 auto 20px; text-align: left;">
+             style="max-width: 700px; margin: 0 auto 20px; text-align: left;">
 
             <div class="panel-heading" style="text-align: center;"><?php echo Yii::t('UserModule.views_auth_login', '<strong><font color="7acc6e">Shopping is relevant again.</font></strong>') ?></div>
 
             <div class="panel-body">
 
-                <p><?php echo Yii::t('UserModule.views_auth_login', '<font size="4"><strong>You’re friends with your friends for a reason.</strong> They have good taste, know a lot of cool things, and are similar to you. Now, when you want to buy something, Shopty lets your friends research and recommend the products and brands for you.
-</font>'); ?></p>
+                <p><?php echo Yii::t('UserModule.views_auth_login', "<strong>You’re friends with your friends for a reason.</strong> They have good taste, know a lot of cool things, and are similar to you. Now, when you want to buy something, Shopty lets your friends research and recommend the products and brands for you.
+"); ?></p>
 
-<p><?php echo Yii::t('UserModule.views_auth_login', '<font size="4">Which smart watch does your tech-obsessed friend like? What headphones does your classmate who DJs professionally use? Which denim jackets does your fashionista cousin love?
-</font>'); ?></p>
+<p><?php echo Yii::t('UserModule.views_auth_login', "Which smart watch does your tech-obsessed friend like? What headphones does your classmate who DJs professionally use? Which denim jackets does your fashionista cousin love?
+"); ?></p>
 
 
-<p><?php echo Yii::t('UserModule.views_auth_login', '<font size="4"><strong>Shopty is a social e-commerce site where you can see just that.</strong> Users create profiles recommending products and brands that they know and own. On Shopty, users discover only relevant products and receive only personalized recommendations. We’re making shopping what it should be – social yet personalized, simple yet fun.
+<p><?php echo Yii::t('UserModule.views_auth_login', "<strong>Shopty is a social e-commerce site where you can see just that.</strong> Users create profiles recommending products and brands that they know and own. On Shopty, users discover only relevant products and receive only personalized recommendations. We’re making shopping what it should be – social yet personalized, simple yet fun.
 
-</font>'); ?></p>
+"); ?></p>
 
-                <p><?php echo Yii::t('UserModule.views_auth_login', '<font size="4"><strong><font color="7acc6e">Shopping needs a makeover. Let’s redefine the experience.</font>Enter your email below and we’ll add you to our early invite list.</strong></font> 
+                <p><?php echo Yii::t('UserModule.views_auth_login', '<strong><font color="7acc6e">Shopping needs a makeover. Let’s redefine the experience.</font>Enter your email below and we’ll add you to our early invite list.</strong> 
 '); ?></p>
                 <?php
                 $form = $this->beginWidget('CActiveForm', array(

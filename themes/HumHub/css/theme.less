@@ -15,7 +15,8 @@
 @colorSuccess: #97d271;
 @colorInfoLight: #dffcff;
 @colorWarning: #fdd198;
-@colorPrimary: #708fa0;
+@colorPrimary: #f7f7f7;
+@colorButton: #7acc6e;
 
 // Font colors
 @colorFont1: #bac2c7;
@@ -108,16 +109,16 @@ input[type=text], input[type=password], input[type=select] {
   }
 
   .btn-group > a {
-    background-color: lighten(@colorPrimary, 5%);
+    background-color: lighten(@colorButton, 5%);
   }
 
   .btn-enter {
-    background-color: lighten(@colorPrimary, 5%);
+    background-color: lighten(@colorButton, 5%);
     margin: 6px 0;
   }
 
   .btn-enter:hover {
-    background-color: lighten(@colorPrimary, 8%);
+    background-color: lighten(@colorButton, 8%);
   }
 
   .media-list {
@@ -763,33 +764,33 @@ input[type=text], input[type=password], input[type=select] {
 }
 
 .btn-primary {
-  background: @colorPrimary;
+  background: @colorButton;
   color: white !important;
 
   &:hover,
   &:focus {
-    background: darken(@colorPrimary, 5%);
+    background: darken(@colorButton, 5%);
     text-decoration: none;
   }
 
   &:active,
   &.active {
     outline: 0;
-    background: darken(@colorPrimary, 5%);
+    background: darken(@colorButton, 5%);
   }
 }
 
 .btn-primary[disabled] {
-  background: lighten(@colorPrimary, 5%);
+  background: lighten(@colorButton, 5%);
 
   &:hover,
   &:focus {
-    background: lighten(@colorPrimary, 5%);
+    background: lighten(@colorButton, 5%);
   }
 
   &:active,
   &.active {
-    background: lighten(@colorPrimary, 5%);
+    background: lighten(@colorButton, 5%);
   }
 }
 

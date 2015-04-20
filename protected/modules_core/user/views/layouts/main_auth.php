@@ -65,22 +65,24 @@
     <link rel="shortcut icon" href="<?php echo Yii::app()->baseUrl; ?>/ico/favicon.ico">
     <!-- end: Favicon and Touch Icons -->
     
-    <style>
-	video#bgvid {
-		    position: fixed; right: 0; bottom: 0;
-		    min-width: 100%; min-height: 100%;
-		    width: auto; height: auto; z-index: -100;
-		    background: url(polina.jpg) no-repeat;
-		    background-size: cover;
-	}
-    </style>
+
+
+
+
+
+
+
+
+
+
+
 
 </head>
 
-<body>
-<video autoplay loop id="bgvid">
-       <source src="./uploads/file/background.mp4" type="video/mp4">
-</video>
+<body class="login-container">
+
+
+
 
 <!-- start: show content (and check, if exists a sublayout -->
 <?php if (isset($this->subLayout) && $this->subLayout != "") : ?>
